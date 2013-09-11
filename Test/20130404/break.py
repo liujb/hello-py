@@ -1,7 +1,8 @@
 # -*- coding: cp936 -*-
 #FileName break.py
+#testtesttest
 while True:
-    s = raw_input("Plz enter a world： ")
+    s = raw_input("Plz enter a world锟斤拷 ")
     if(s=='quit'):
         print 'You have quitted.'
         break
