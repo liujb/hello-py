@@ -1,8 +1,0 @@
-(lp1
-S'ALLEN'
-p2
-aS'KOBE'
-p3
-aS'JOH'
-p4
-a.
