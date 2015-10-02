@@ -1,4 +1,8 @@
+#!/usr/local/python
+'''
+define class and then init
+'''
 class Person:
-    pass  # block
-p = Person()
-print p
+  pass  # block
+myPerson = Person()
+print myPerson

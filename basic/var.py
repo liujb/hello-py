@@ -1,9 +1,13 @@
-i = 5
-print i
+'''
+define variables and using
+'''
+if __name__ == '__main__':
+  i = 5
+  print i
 
-i = i + 1
-print i
+  i = i + 1
+  print i
 
-s='''This is a multi-line string
-This is the second line.'''
-print s
+  strs = '''This is a multi-line string 
+  This is the second line.'''
+  print strs
