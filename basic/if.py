@@ -1,12 +1,12 @@
-# -*- coding: cp936 -*-
-#FileName：if.py
+# -*- coding: utf8 -*-
+# FileName锛歩f.py
+
 number = 23
-guess = int(raw_input('Enter a number： '))
+guess = int(raw_input('Enter a number: '))
 if guess == number:
-    print '恭喜你，答对了！'
-    print '但是没有奖励哦！'
+    print 'success.'
 elif guess > number:
-    print '大了一点点，继续加油！'
+    print 'gather.'
 else:
-    print '小了一点点，继续加油！'
-print '噢啦，只能试一次'
+    print 'less'
+print 'plz retry'

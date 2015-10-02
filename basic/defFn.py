@@ -1,4 +1,4 @@
-#FileName:defFunc.py
+# FileName:defFunc.py
 def fnName(sStr):
-    print sStr
+  print sStr
 fnName('Let me fuck you.')

@@ -1,4 +1,4 @@
-#FileName:dir.py
+# FileName:dir.py
 
 import sys
 a = dir(sys)

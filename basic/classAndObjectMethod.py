@@ -13,6 +13,7 @@ class MyClass:
     def __del__(self):  #类似于C#里的析构函数
         print '%s says bye' % self.name
         MyClass.flag -= 1
+        
         if MyClass.flag == 0:
             print '我是最后一个啦！'
         else:

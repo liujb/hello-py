@@ -1,4 +1,4 @@
-#FileName:dictionary.py
+# FileName:dictionary.py
 dic = {
     "ALLEN":"Liujiangbei@126.com",
     "SB":"SB@126.com",

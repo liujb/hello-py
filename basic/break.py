@@ -1,13 +1,13 @@
-# -*- coding: cp936 -*-
-#FileName break.py
-#testtesttest
+'''
+hello
+'''
 while True:
-    s = raw_input("Plz enter a world�� ")
-    if(s=='quit'):
+    INPUT_NAME = raw_input("Plz enter a world ")
+    if INPUT_NAME == "quit":
         print 'You have quitted.'
         break
     else:
         print 'Plz enter again'
-    print 'The length of word you are entered is', len(s)
+    print 'The length of word you are entered is', len(INPUT_NAME)
 else:
     print 'Plz enter again'
