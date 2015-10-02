@@ -1,5 +1,7 @@
-# -*- coding: cp936 -*-
-#FileName:usingTuple.py
+'''
+using tuple
+'''
+# FileName:usingTuple.py
 zoo = ("wolf", "elephant", "penguin")
 print 'Number of animals in the zoo is', len(zoo)
 
@@ -9,7 +11,7 @@ print "All animals in zhe new zoo are", new_zoo
 print 'Animals brought from old zoo are', new_zoo[2]
 print "Last animal brought from old zoo is", new_zoo[2][2]
 
-#Ôª×éÍ¨³£ÓÃÔÚ´òÓ¡Óï¾äÖĞ
+#å…ƒç»„é€šå¸¸ç”¨åœ¨æ‰“å°è¯­å¥ä¸­
 age = 23
 name = "ALLEN"
 
