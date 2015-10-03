@@ -1,13 +1,17 @@
-# -*- coding: cp936 -*-
-#FileName:return.py
-def fn(x,y):
-    if(x>y):
-        return x
-    else:
-        return y
-x = fn(5,10)
+# -*- coding: utf8 -*-
+# FileName:return.py
+
+
+def func(x, y):
+  if(x > y):
+    return x
+  else:
+    return y
+
+x = func(5, 10)
 print 'The big is', x
-    
-def fn2():
-    pass #表示一个空的语句块
-fn2()
+
+def func2():
+  pass  # 琛ㄧず涓�涓┖鐨勮鍙ュ潡
+
+func2()

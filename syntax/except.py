@@ -1,14 +1,12 @@
-# -*- coding: cp936 -*-
-#FileName:except.py
-#¼òµ¥µÄÒì³£
+# -*- coding: utf8 -*-
 
 import sys
 
 try:
-    s = raw_input('Enter something')
+  s = raw_input('Enter something')
 except EOFError:
-    print 'Why did you do an EOF on me.'
-    #sys.exit()  #exit the program
+  print 'Why did you do an EOF on me.'
 except:
-    print '·¢ÉúÁËÎ´ÖªÒì³£'
+  print 'å‘ç”Ÿäº†æœªçŸ¥å¼‚å¸¸'
+
 print 'Done'

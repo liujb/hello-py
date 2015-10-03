@@ -1,15 +1,17 @@
-# -*- coding: cp936 -*-
-#FileName:while.py
+# coding=utf8
+# FileName:while.py
+
 number = 23
 flag = True
+
 while flag:
-    guess = int(raw_input('Plz Enter a number: '))
-    if guess == number:
-        print '¹§Ï²Äã£¬²Â¶ÔÁË'
-        flag = False # This cause can stop the while loop
-    elif guess<number:
-        print 'Ð¡ÁËÒ»µãµã£¬¼ÌÐø¼ÓÓÍ.'
-    else:
-        print '´óÁËÒ»µãµã£¬¼ÌÐø¼ÓÓÍ.'
+  guess = int(raw_input('Plz Enter a number: '))
+  if guess == number:
+    print 'æ­å–œä½ ï¼ŒçŒœå¯¹äº†'
+    flag = False  # This cause can stop the while loop
+  elif guess < number:
+    print 'å°äº†ä¸€ç‚¹ç‚¹ï¼Œç»§ç»­åŠ æ²¹.'
+  else:
+    print 'å¤§äº†ä¸€ç‚¹ç‚¹ï¼Œç»§ç»­åŠ æ²¹.'
 else:
-    print 'While loop is stoped!'
+  print 'While loop is stoped!'

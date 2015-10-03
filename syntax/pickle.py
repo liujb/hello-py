@@ -1,20 +1,20 @@
-# -*- coding: cp936 -*-
-#FileName:pickle.py
+# -*- coding: utf8 -*-
+# FileName:pickle.py
 
 import cPickle as p
-#import pickle as p
 
 lstFile = 'file.txt'
 
-lst = ['ALLEN','KOBE','JOH']
-f = file(lstFile,'w')   #´ò¿ªÎÄ¼ş£¬ÈôÃ»ÓĞÔò´´½¨ÎÄ¼ş
-p.dump(lst,f)   #dump(×ª´æ£¬Çãµ¹µÈÒâË¼) the object to a file
-#½«¶ÔÏóĞòÁĞ»¯µ½ÎÄ¼şÄÚ
+lst = ['ALLEN', 'KOBE', 'JOH']
+f = file(lstFile, 'w')  # æ‰“å¼€æ–‡ä»¶ï¼Œè‹¥æ²¡æœ‰åˆ™åˆ›å»ºæ–‡ä»¶
+
+p.dump(lst, f)  # dump(è½¬å­˜ï¼Œå€¾å€’ç­‰æ„æ€) the object to a file
+# å°†å¯¹è±¡åºåˆ—åŒ–åˆ°æ–‡ä»¶å†…
 f.close()
 
 del lst
 
-f = file(lstFile,'r')   #¶ÁÈ¡ÎÄ¼şÄÚÈİ
-storedList = p.load(f)  #load the object from file
+f = file(lstFile, 'r')  # è¯»å–æ–‡ä»¶å†…å®¹
+storedList = p.load(f)  # load the object from file
 
 print storedList

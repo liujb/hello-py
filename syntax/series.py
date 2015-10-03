@@ -1,9 +1,11 @@
 # -*- coding: utf8 -*-
 # FileName:series.py
 # Description:序列
+
 lst = ["AAA", "BBB", "CCC", "DDD"]
 for item in lst:
   print item
+
 print '\n', lst[-1]  # -1表示序列的最后一个元素
 print lst[-2]  # -2表示序列的倒数第二个元素
 

@@ -1,6 +1,4 @@
-# -*- coding: cp936 -*-
-#FileName for.py
-for i in range(1,10,2):#range()
-    print i
+for i in range(1, 10, 2):  # range()
+  print i
 else:
-    print 'for loop is stoped.'
+  print 'for loop is stoped.'

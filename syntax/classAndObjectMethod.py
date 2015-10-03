@@ -1,29 +1,33 @@
-# -*- coding: cp936 -*-
-#FileName:classAndObjectMethod.py
-#Description:类和对象的方法
+'''
+define class and
+'''
+# -*- coding: utf8 -*-
+# FileName:classAndObjectMethod.py
+# Description: class and object method
+
 
 class MyClass:
-    flag = 0
+  flag = 0
 
-    def __init__(self,name):    #构造函数
-        self.name = name
-        print 'init %s' % self.name
-        MyClass.flag += 1
+  def __init__(self, name):
+    self.name = name
+    print 'init %s' % self.name
+    MyClass.flag += 1
 
-    def __del__(self):  #类似于C#里的析构函数
-        print '%s says bye' % self.name
-        MyClass.flag -= 1
-        
-        if MyClass.flag == 0:
-            print '我是最后一个啦！'
-        else:
-            print '还有%d个！'% MyClass.flag
+  def __del__(self):
+    print '%s says bye' % self.name
+    MyClass.flag -= 1
 
-    def sayHi(self):    #实例方法
-        print 'Hi,my name is ',self.name
+    if MyClass.flag == 0:
+      print 'I am last one'
+    else:
+      print 'Have %d ' % MyClass.flag
 
-    def outputFlag(self):   #实例方法
-        print 'Flag is %d' % MyClass.flag
+  def sayHi(self):
+    print 'Hi, my name is ', self.name
+
+  def outputFlag(self):
+    print 'Flag is %d' % MyClass.flag
 
 c = MyClass('C1')
 c.sayHi()

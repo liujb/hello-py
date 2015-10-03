@@ -1,8 +1,13 @@
-#!/usr/local/python
 '''
 define class and then init
 '''
+#!/usr/local/python
+
+'''
+class demo
+'''
 class Person:
-  pass  # block
+  pass
+
 myPerson = Person()
 print myPerson

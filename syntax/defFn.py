@@ -1,4 +1,7 @@
-# FileName:defFunc.py
-def fnName(sStr):
-  print sStr
-fnName('Let me fuck you.')
+'''
+defined and function then call it
+'''
+def funcName(strs):
+  print strs
+
+funcName('Let me fuck you.')

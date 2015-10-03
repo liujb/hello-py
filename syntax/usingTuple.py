@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 '''
 using tuple
 '''
@@ -11,9 +12,9 @@ print "All animals in zhe new zoo are", new_zoo
 print 'Animals brought from old zoo are', new_zoo[2]
 print "Last animal brought from old zoo is", new_zoo[2][2]
 
-#元组通常用在打印语句中
+# 元组通常用在打印语句中
 age = 23
 name = "ALLEN"
 
-print '\n%s is %d years old' % (name,age)
+print '\n%s is %d years old' % (name, age)
 print "Why is %s playing with that Python?" % name
