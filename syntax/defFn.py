@@ -1,7 +1,10 @@
-'''
-defined and function then call it
-'''
-def funcName(strs):
-  print strs
+#coding=utf8
+#!/usr/bin/python
 
-funcName('Let me fuck you.')
+def testFunc(str1):
+  str1 = "liujiangbei"
+  print str1
+  
+strs = "liujb" 
+testFunc(strs)
+print strs
