@@ -1,4 +1,5 @@
-# FileName:list.py
+# coding=utf8
+#!/usr/bin/python
 
 lst = ['Allen', 'JiangBei']  # Init a list
 lst.append('BBB')  # Add a new item to list
