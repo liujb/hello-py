@@ -6,6 +6,3 @@ This project is learnning python.
 
 QQ: 578317190
 wechat: JiangbeiLiu
-
-
-
