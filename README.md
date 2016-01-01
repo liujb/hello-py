@@ -2,7 +2,6 @@
 
 This project is learnning python.
 
-#### contact 
+#### contact
 
-QQ: 578317190
-wechat: JiangbeiLiu
+QQ: 578317190 wechat: JiangbeiLiu
